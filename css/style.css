@@ -1,0 +1,125 @@
+body {
+    background-image: linear-gradient(
+      180deg,
+      hsl(236deg 93% 26%) 19%,
+      hsl(253deg 45% 42%) 62%,
+      hsl(258deg 33% 56%) 77%,
+      hsl(260deg 35% 70%) 86%,
+      hsl(261deg 36% 85%) 93%,
+      hsl(0deg 0% 100%) 97%,
+      hsl(271deg 34% 85%) 100%,
+      hsl(270deg 33% 70%) 101%,
+      hsl(269deg 32% 56%) 102%,
+      hsl(267deg 43% 42%) 101%,
+      hsl(265deg 86% 27%) 100%
+    );
+    overflow: hidden;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 700px;
+    height: auto;
+    background-color: #f0f0f0;
+    border: 1px solid #333;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    .box {
+        width: 90%;
+    }
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 96%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button[type="submit"] {
+    width: 50%;
+    padding: 10px;
+    background-color: #5A45A1;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 10px;
+    margin: auto;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+.userst{
+    width: 700px;
+    height: 500px;
+    background-color: #f0f0f0;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+}
+
+.profile-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin: auto;
+}
+
+.user-details {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.username {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.status {
+    font-size: 20px;
+    color: #555;
+}
+
+
+
+.userst {
+    position: relative;
+}
